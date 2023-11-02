@@ -1,53 +1,17 @@
+This repository contains the R code of the algorithm Multi-Mean GPs, presented in the paper 'Machine learning prediction of epigenetic age from longitudinal DNA methylation profiles' by Leroy, Teh, Dondelinger, Alvarez and Wang (2023). If you are considering citing this work, you are welcome to use the file reference.bib.
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+The 'Data' folder contains the coefficients of the PedBE and Horvath clocks used to compute epigenetic age in the paper. The data from the GUSTO project presented in the experiments can be downloaded on the dedicated online platform: https://gustodatavault.sg/.
 
-# MultiMeanGP
+The 'Training' folder contains the trained models for the different settings presented in the paper.
 
-<!-- badges: start -->
-<!-- badges: end -->
+The 'Prediction' folder contains the prediction results presented in the paper.
 
-The goal of MultiMeanGP is to …
+The 'Evaluation' folder contains the evaluation metrics presented in the paper.
 
-## Installation
+The 'MMGP.R' file contains the code of the Multi-mean GPs algorithm and a few convenient functions to conduct the experiments and evaluate and display the results.
 
-You can install the development version of MultiMeanGP like so:
+The 'Experiments.R' file contains the scripts used to conduct the experiments and plot the graphs presented in the paper.
 
-``` r
-# FILL THIS IN! HOW CAN PEOPLE INSTALL YOUR DEV PACKAGE?
-```
-
-## Example
-
-This is a basic example which shows you how to solve a common problem:
-
-``` r
-library(MultiMeanGP)
-## basic example code
-```
-
-What is special about using `README.Rmd` instead of just `README.md`?
-You can include R chunks like so:
-
-``` r
-summary(cars)
-#>      speed           dist       
-#>  Min.   : 4.0   Min.   :  2.00  
-#>  1st Qu.:12.0   1st Qu.: 26.00  
-#>  Median :15.0   Median : 36.00  
-#>  Mean   :15.4   Mean   : 42.98  
-#>  3rd Qu.:19.0   3rd Qu.: 56.00  
-#>  Max.   :25.0   Max.   :120.00
-```
-
-You’ll still need to render `README.Rmd` regularly, to keep `README.md`
-up-to-date. `devtools::build_readme()` is handy for this. You could also
-use GitHub Actions to re-render `README.Rmd` every time you push. An
-example workflow can be found here:
-<https://github.com/r-lib/actions/tree/v1/examples>.
-
-You can also embed plots, for example:
-
-<img src="man/figures/README-pressure-1.png" width="100%" />
-
-In that case, don’t forget to commit and push the resulting figure
-files, so they display on GitHub and CRAN.
+Corresponding author and primary contributor to the code:
+Arthur Leroy
+arthur.leroy.pro@gmail.com' 
