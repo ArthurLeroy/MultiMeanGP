@@ -1,4 +1,11 @@
-This repository contains the R code of the algorithm Multi-Mean GPs, presented in the paper 'Machine learning prediction of epigenetic age from longitudinal DNA methylation profiles' by Leroy, Teh, Dondelinger, Alvarez and Wang (2023). If you are considering citing this work, you are welcome to use the file reference.bib.
+This repository contains the R code of the algorithm Multi-Mean GPs, presented in the paper:  
+
+Longitudinal prediction of DNA methylation to forecast epigenetic outcomes
+Leroy, A., Teh, A.L. et al.
+eBioMedicine, Volume 115, 105709  
+https://doi.org/10.1016/j.ebiom.2025.105709
+
+If you are considering citing this work, you are welcome to use the file reference.bib.
 
 The 'Data' folder contains the coefficients of the PedBE and Horvath clocks used to compute epigenetic age in the paper. The data from the GUSTO project presented in the experiments can be downloaded on the dedicated online platform: https://gustodatavault.sg/.
 
