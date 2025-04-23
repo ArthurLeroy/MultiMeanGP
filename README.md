@@ -1,8 +1,8 @@
 This repository contains the R code of the algorithm Multi-Mean GPs, presented in the paper:  
 
-Longitudinal prediction of DNA methylation to forecast epigenetic outcomes
-Leroy, A., Teh, A.L. et al.
-eBioMedicine, Volume 115, 105709  
+Longitudinal prediction of DNA methylation to forecast epigenetic outcomes  
+Leroy, A., Teh, A.L. et al.  
+eBioMedicine, Volume 115, 105709   
 https://doi.org/10.1016/j.ebiom.2025.105709
 
 If you are considering citing this work, you are welcome to use the file reference.bib.
